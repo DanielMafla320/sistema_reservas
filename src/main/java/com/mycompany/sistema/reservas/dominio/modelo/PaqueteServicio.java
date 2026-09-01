@@ -6,7 +6,6 @@ public class PaqueteServicio {
     private final boolean incluyeTransporteAeropuerto;
     private final int numeroPersonas;
 
-    // Constructor privado: solo el Builder puede instanciar
     public PaqueteServicio(boolean incluyeDesayuno, boolean incluyeSpa,
                      boolean incluyeTransporteAeropuerto, int numeroPersonas) {
         this.incluyeDesayuno = incluyeDesayuno;

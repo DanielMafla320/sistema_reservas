@@ -9,7 +9,7 @@ public class PaqueteServicioBuilder {
     private boolean incluyeDesayuno = false;
     private boolean incluyeSpa = false;
     private boolean incluyeTransporteAeropuerto = false;
-    private Integer numeroPersonas; // Integer para detectar "no seteado"
+    private Integer numeroPersonas; 
 
     public PaqueteServicioBuilder conDesayuno(boolean valor) {
         this.incluyeDesayuno = valor;
